@@ -97,7 +97,7 @@
     }
 
     function sendToSheet() {
-      const url = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec"; // Replace with your Apps Script URL
+      const url = "https://script.google.com/macros/s/https://script.google.com/macros/s/AKfycbyKaPcnMA1MyhnO93TNpwerHtPFzkjv93kVWW0Y3Tt4UXP0SvW6nnueMsZwQ-r66B-NNA/exec"; // Replace with your Apps Script URL
       fetch(url, {
         method: "POST",
         mode: "no-cors",
