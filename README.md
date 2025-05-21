@@ -44,7 +44,10 @@
       let choices = new Set([correct]);
       while (choices.size < 4) {
         let offset = (Math.random() * 6 - 3).toFixed(1);
-        choices.add(Math.round((correct + parseFloat(offset)) * 10) / 10);
+        let candidate = Math.round((correct + parseFloat(offset)) * 10) / 10;
+        if (candidate !== correct && candidate >= 0) {
+          choices.add(candidate);
+        }
       }
       return shuffle(Array.from(choices));
     }
