@@ -97,7 +97,7 @@
     }
 
     function sendToSheet() {
-const url = "https://script.google.com/macros/s/AKfycbyKaPcnMA1MyhnO93TNpwerHtPFzkjv93kVWW0Y3Tt4UXP0SvW6nnueMsZwQ-r66B-NNA/exec";
+const url = https://script.google.com/macros/s/AKfycbyKaPcnMA1MyhnO93TNpwerHtPFzkjv93kVWW0Y3Tt4UXP0SvW6nnueMsZwQ-r66B-NNA/exec;
       fetch(url, {
         method: "POST",
         mode: "no-cors",
